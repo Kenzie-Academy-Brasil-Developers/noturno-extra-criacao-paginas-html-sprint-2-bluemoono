@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+    <h1>Ficha de Cadastro</h1>
+
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+            <label for="lastName">Sobrenome:</label>
+            <input type="text" name="lastName" id="lastName"><br>
+            <label for="idade">Idade:</label><br>
+            <input type="radio" name="idade" id="idade">
+            <label for="idade"><= 18</label><br>
+            <input type="radio" name="idade" id="idade">
+            <label for="idade">19 - 35</label><br>
+            <input type="radio" name="idade" id="idade">
+            <label for="idade">36 - 48</label><br>
+            <input type="radio" name="idade" id="idade">
+            <label for="idade">49 ></label><br>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Rua ABC, 70">
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" id="bairro">
+            <label for="pais">Nacionalidade:</label>
+            <select name="pais" id="pais">
+                <option value="">Selecione um país</option>
+                <option value="pais">Argentina</option>
+                <option value="pais">Brasil</option>
+                <option value="pais">Chile</option>
+                <option value="pais">Dinamarca</option>
+                <option value="pais">Espanha</option>
+                <option value="pais">França</option>
+                <option value="pais">Geórgia</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <label for="emprego">Profissional:</label>
+            <input type="text" name="emprego" id="emprego">
+            <label for="cargo">Cargo:</label>
+            <select name="cargo" id="cargo">
+                <option value="">Selecione o cargo</option>
+                <option value="cargo">Atendente</option>
+                <option value="cargo">Recepcionista</option>
+                <option value="cargo">Contador</option>
+                <option value="cargo">Programador</option>
+                <option value="cargo">Analista</option>
+            </select>
+            <label for="salario">Salário:</label>
+            <input type="number" name="salario" id="salario">
+        </fieldset>
+        <fieldset>
+            <legend>Interesses Pessoais</legend>
+            <div>
+                <input type="checkbox" name="leitura" id="leitura">
+                <label for="leitura">Leitura</label>
+            </div>
+            <div>
+                <input type="checkbox" name="serie" id="serie">
+                <label for="serie">Series</label>
+            </div>
+            <div>
+                <input type="checkbox" name="anime" id="anime">
+                <label for="anime">Animes</label>
+            </div>
+            <div>
+                <input type="checkbox" name="jogos" id="jogos">
+                <label for="jogos">Games</label>
+            </div>
+            <div>
+                <input type="checkbox" name="musica" id="musica">
+                <label for="musica">Música</label>
+            </div>
+            <div>
+                <input type="checkbox" name="pintura" id="pintura">
+                <label for="pintura">Pintura</label>
+            </div>
+            <div>
+                <input type="checkbox" name="esportes" id="esportes">
+                <label for="esportes">Esportes</label>
+            </div>
+            <div>
+                <input type="checkbox" name="malhar" id="malhar">
+                <label for="malhar">Malhar</label>
+            </div>
+            <div>
+                <input type="checkbox" name="caminhar" id="caminhar">
+                <label for="caminhar">Caminhar</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Extra</legend>
+            <label for="descobriu">Como você nos descobriu?</label><br>
+            <textarea name="descobriu" id="descobriu" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>

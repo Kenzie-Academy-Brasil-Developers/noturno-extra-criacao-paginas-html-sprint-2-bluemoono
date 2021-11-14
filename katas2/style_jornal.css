@@ -1,1 +1,14 @@
-/* FOLHA DE ESTILO DA PAGINA DE JORNAL */
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif, sans-serif;
+    margin: auto;
+}
+
+ul, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    background-color: aqua;
+}
