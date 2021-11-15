@@ -1,85 +1,137 @@
-<!-- INICIE AQUI SUA PÁGINA DE JORNAL -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jornal da tarde</title>
+    <title>Jornal da tarde - as melhores notícias para acompanhar o seu café</title>
 
     <link rel="stylesheet" href="style_jornal.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li id="logo">
-                    <a href="">
-                        <img src="img/afternoon(1).png" alt="Logo">
-                        <h1>Jornal da Tarde</h1>
-                        <h2>As melhores notícias pós-almoço</h2>
-                    </a>
-                </li>
-                <li class="nav-item"><a href="">Esportes</a></li>
-                <li class="nav-item"><a href="">Política</a></li>
-                <li class="nav-item"><a href="">Entreterimento</a></li>
-            </ul>
+            <div id="logo">
+                <a href="">
+                    <img src="img/afternoon(1).png" alt="Logo">
+                    <hgroup>
+                        <h1>Jornal da tarde</h1>
+                        <h2>As melhores notícias para acompanhar o seu café</h2>
+                    </hgroup>
+                </a>
+            </div>
+            <div id="links">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#politica">Política</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#esporte">Esporte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#economia">Economia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#diversao">Diversão</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-
-    <section id="destaques">
-        <figure class="destaque-itens">
-            <a href="#">
-                <img src="img/pexels-z-z-6200343.jpg" alt="A inesperada chegada do 5G!">
-                <figcaption><h1>Tudo sobre a inesperada chegada do 5G no Brasil: a nova disputa das redes!</h1></figcaption>
-            </a>
-        </figure>
-        <figure class="destaque-itens">
-            <a href="#">
-                <img src="img/pexels-karolina-grabowska-4021775.jpg" alt="Ex-medico acusado de omitir tortura na ditadura vira réu">
-                <figcaption><h1>Ex-médico acusado de omitir tortura em vítima da ditadura vira réu</h1></figcaption>
-            </a>
-        </figure>
-    </section>   
     
-    <section>
-        <article id="esportes">
-            <h2>Esportes</h2>
-            
-            <img src="" alt="">
-            <h3>título</h3>
-            <p>introdução</p>
-            <a href=""><span>Veja mais</span></a>
+    <main>
+        <article class="destaque">
+            <img src="img/pexels-karolina-grabowska-4021775.jpg" alt="Medico">
+            <h3>Médio é acusado de assédio e condenado pela justiça</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id fermentum arcu. Quisque diam risus, dictum vitae porttitor quis, gravida sit amet leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis maximus dui. Cras sagittis finibus odio ac rutrum. </p>
+        </article>
+        <article class="destaque">
+            <img src="img/pexels-z-z-6200343.jpg" alt="5g">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
+        </article>
+    </main>
+
+    <section id="politica">
+        <h2>Política</h2>
+        <article class="p-item">
+            <img src="img/politica.jpg" alt="politica">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
+        </article>
+        <article class="p-item">
+            <img src="img/politica.jpg" alt="politica">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
+        </article>
+        <article class="p-item">
+            <img src="img/politica.jpg" alt="politica">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
         </article>
     </section>
 
-    <section>
-        <article id="politica">
-            <h2>Política</h2>
-    
-            <img src="" alt="">
-            <h3>título</h3>
-            <p>introdução</p>
-            <a href=""><span>Veja mais</span></a>
+    <section id="esporte">
+        <h2>Esporte</h2>
+        <article class="p-item">
+            <img src="img/esporte.jpg" alt="esporte">
+            <h3>Jogo acaba em confronto</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
+        </article>
+        <article class="p-item">
+            <img src="img/esporte.jpg" alt="esporte">
+            <h3>Novas contratações são feitas</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
+        </article>
+        <article class="p-item">
+            <img src="img/esporte.jpg" alt="esporte">
+            <h3>A copa será feita no país de Gales</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
         </article>
     </section>
 
-    <section>
-        <article id="entretenimento">
-            <h2>Entretenimento</h2>
-            
-            <img src="" alt="">
-            <h3>título</h3>
-            <p>introdução</p>
-            <a href=""><span>Veja mais</span></a>
+    <section id="economia">
+        <h2>Economia</h2>
+        <article class="p-item">
+            <img src="img/economia.jpg" alt="economia">
+            <h3>Crise agraria preocupa fazendeiros</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
+        </article>
+        <article class="p-item">
+            <img src="img/economia.jpg" alt="economia">
+            <h3>Novos investimentos são liberados a todos</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus felis nisl, quis vehicula est euismod id. Vivamus augue magna, pharetra ut sem consectetur, venenatis pharetra ex. Maecenas lobortis bibendum aliquam. Nulla nunc arcu, placerat id massa non, blandit imperdiet diam. </p>
+        </article>
+    </section>
+    <section id="diversao">
+        <h2>Divesão</h2>
+        <article class="p-item">
+            <img src="img/entretenimento.jpg" alt="entretenimento">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Nulla ut blandit justo. Vivamus odio tortor, sodales vitae cursus sit amet, elementum vitae augue.</p>
+        </article>
+        <article class="p-item">
+            <img src="img/entretenimento.jpg" alt="entretenimento">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Nulla ut blandit justo. Vivamus odio tortor, sodales vitae cursus sit amet, elementum vitae augue.</p>
+        </article>
+        <article class="p-item">
+            <img src="img/entretenimento.jpg" alt="entretenimento">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Nulla ut blandit justo. Vivamus odio tortor, sodales vitae cursus sit amet, elementum vitae augue.</p>
+        </article>
+        <article class="p-item">
+            <img src="img/entretenimento.jpg" alt="entretenimento">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Nulla ut blandit justo. Vivamus odio tortor, sodales vitae cursus sit amet, elementum vitae augue.</p>
+        </article>
+        <article class="p-item">
+            <img src="img/entretenimento.jpg" alt="entretenimento">
+            <h3>Leilões para o 5g se tornam assirradas</h3>
+            <p>Nulla ut blandit justo. Vivamus odio tortor, sodales vitae cursus sit amet, elementum vitae augue.</p>
         </article>
     </section>
 
-    <aside>
-        Jogos de dessa semana
-    </aside>
-
-    <footer>&copy; Micaela Carvalho -  2021</footer>
+    <footer>Jornal da Tarde &copysr;</footer>
 </body>
 </html>

@@ -1,14 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto', Arial, Helvetica, sans-serif, sans-serif;
     margin: auto;
 }
 
-ul, h1, h2, h3, h4, h5, h6, p{
+ul,  h3, h4, h5, h6, p{
     margin: 0;
     padding: 0;
     list-style: none;
+    color: #080808;
+}
+
+h3{
+    font-weight: 400;
 }
 
 header{
-    background-color: aqua;
+    background-color: #008080;
+}
+
+nav, main{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+hgroup{
+    font-size: 0.8rem;
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 21%;
+}
+
+hgroup h1{
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+hgroup h2{
+    font-weight: 300;
+    font-size: 0.6rem;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1.5px solid white;
+}
+
+ul li{
+    display: inline-block;
+    margin: 15px;
+    margin-top: 80px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 1px solid #4D4A49;
+}
+
+article{
+    width: 350px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+article p{
+    text-align: justify;
+}
+
+main .destaque{
+    margin: 10px;
+    width: 900px;
+}
+
+main .destaque h3{
+    text-align: center;
+}
+
+section{
+    margin: 40px 0px;
+}
+
+section article h2{
+    color: #007DA6;
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: #4D4A49;
+    color: white;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.p-item img{
+    width: 80px;
+    margin: 10px;
+}
+
+#logo{
+    display: flex;
+}
+
+#politica{
+    text-align: center;
+}
+
+#politica article{
+    width: 450px;
+    display: inline-block;
+    margin: auto 25px;
+}
+
+#esporte .p-item, #economia .p-item{
+    display: flex;
+    width: 960px;
+    margin: 20px auto;
+}
+
+#esporte .p-item h3, #economia .p-item h3{
+    padding: 0px 20px;
+}
+
+#diversao{
+    text-align: center;
+}
+
+#diversao article{
+    width: 150px;
+    display: inline-block;
+    margin: auto 20px;
+    justify-content: space-between;
+    text-align: left;
 }
